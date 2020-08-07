@@ -4,7 +4,8 @@
   "description": "Simple server implementation of hiring flow",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,11 @@
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "http-errors": "^1.8.0",
+    "log4js": "^6.3.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
